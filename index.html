@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3736,8 +3735,7 @@ font-size: 0.58rem;
 ========================= */
 
 .admin {
-  height: 20vh;
-  min-height: 180px;
+  min-height:auto;
   
   background-color: var(--section-bg);
   color: var(--font-color);
@@ -3992,6 +3990,10 @@ font-size: 0.58rem;
   }
   
 }
+/*Shhhh*/
+[class*="-delete"] {
+  display: none;
+}
   </style>
 </head>
 <body>
@@ -4032,7 +4034,6 @@ font-size: 0.58rem;
     loop
     playsinline
   ></video>
-
   <!-- Overlay -->
   <div class="hero-overlay"></div>
 
@@ -4046,14 +4047,6 @@ font-size: 0.58rem;
         Loading...
       </h1>
 
-      <button
-        type="button"
-        id="editHeadingButton"
-        class="hero-edit-button"
-        title="Edit heading"
-      >
-        <i class="fa-solid fa-pen"></i>
-      </button>
 
     </div>
 
@@ -4065,14 +4058,7 @@ font-size: 0.58rem;
         Loading...
       </p>
 
-      <button
-        type="button"
-        id="editSubheadingButton"
-        class="hero-edit-button"
-        title="Edit subheading"
-      >
-        <i class="fa-solid fa-pen"></i>
-      </button>
+
 
     </div>
 
@@ -4087,15 +4073,8 @@ font-size: 0.58rem;
       >
         Shop Now
       </a>
+<!--2000-->
 
-      <button
-        type="button"
-        id="editCTAButton"
-        class="hero-edit-button"
-        title="Edit CTA"
-      >
-        <i class="fa-solid fa-pen"></i>
-      </button>
 
     </div>
 
@@ -4105,30 +4084,7 @@ font-size: 0.58rem;
   <!-- Video Management -->
   <div class="hero-video-controls">
 
-    <button
-      type="button"
-      id="uploadHeroVideo"
-      class="hero-control-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Video
-    </button>
-
-    <button
-      type="button"
-      id="deleteHeroVideo"
-      class="hero-control-button delete-video-button"
-    >
-      <i class="fa-solid fa-trash"></i>
-      Delete Video
-    </button>
-
-    <input
-      type="file"
-      id="heroVideoInput"
-      accept="video/mp4,video/webm,video/quicktime"
-      hidden
-    >
+<!--3000-->
 
   </div>
 
@@ -4139,7 +4095,7 @@ font-size: 0.58rem;
 ========================================= -->
 
 <section class="category1" id="category1">
-
+<!--3000-->
   <div class="category1-header">
     <h2>FaceCap</h2>
   </div>
@@ -4186,28 +4142,7 @@ font-size: 0.58rem;
   </div>
 
 
-  <!-- UPLOAD -->
 
-  <div class="category1-upload-area">
-
-    <button
-      type="button"
-      id="category1UploadButton"
-      class="category1-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category1ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
 
 </section>
 
@@ -4254,27 +4189,8 @@ font-size: 0.58rem;
     </button>
 
   </div>
+<!--4000-->
 
-  <div class="category2-upload-area">
-
-    <button
-      type="button"
-      id="category2UploadButton"
-      class="category2-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category2ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
 
 </section>
 
@@ -4325,29 +4241,7 @@ font-size: 0.58rem;
 
   </div>
 
-
-  <!-- UPLOAD -->
-
-  <div class="category3-upload-area">
-
-    <button
-      type="button"
-      id="category3UploadButton"
-      class="category3-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category3ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
+<!--5000-->
 
 </section>
 
@@ -4398,29 +4292,8 @@ font-size: 0.58rem;
 
   </div>
 
+<!--6000-->
 
-  <!-- UPLOAD -->
-
-  <div class="category4-upload-area">
-
-    <button
-      type="button"
-      id="category4UploadButton"
-      class="category4-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category4ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
 
 </section>
 
@@ -4471,29 +4344,7 @@ font-size: 0.58rem;
 
   </div>
 
-
-  <!-- UPLOAD -->
-
-  <div class="category5-upload-area">
-
-    <button
-      type="button"
-      id="category5UploadButton"
-      class="category5-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category5ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
+<!--7000-->
 
 </section>
 
@@ -4544,29 +4395,7 @@ font-size: 0.58rem;
 
   </div>
 
-
-  <!-- UPLOAD -->
-
-  <div class="category6-upload-area">
-
-    <button
-      type="button"
-      id="category6UploadButton"
-      class="category6-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category6ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
+<!--8000-->
 
 </section>
 
@@ -4617,29 +4446,8 @@ font-size: 0.58rem;
 
   </div>
 
+<!--9000-->
 
-  <!-- UPLOAD -->
-
-  <div class="category7-upload-area">
-
-    <button
-      type="button"
-      id="category7UploadButton"
-      class="category7-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category7ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
 
 </section>
 
@@ -4689,28 +4497,7 @@ font-size: 0.58rem;
 
   </div>
 
-  <!-- UPLOAD -->
-
-  <div class="category8-upload-area">
-
-    <button
-      type="button"
-      id="category8UploadButton"
-      class="category8-upload-button"
-    >
-      <i class="fa-solid fa-upload"></i>
-      Upload Images
-    </button>
-
-    <input
-      type="file"
-      id="category8ImageInput"
-      accept="image/jpeg,image/png,image/webp,image/gif"
-      multiple
-      hidden
-    >
-
-  </div>
+<!--4001-->
 
 </section>
 
@@ -4718,7 +4505,7 @@ font-size: 0.58rem;
 
   <section class="testimonials"></section>
 
-<section class="admin" style="padding-bottom:50vh;">
+<section class="admin">
   <div class="admin-header">
     <h2>Part 8</h2>
   </div>
@@ -4768,18 +4555,271 @@ font-size: 0.58rem;
   <div class="protected-content" id="protectedContent" hidden>
 
     <div class="protected-card">
-
+<!--1000-->
       <i class="fa-solid fa-shield-halved"></i>
 
       <h3>Protected Content</h3>
 
-      <p>
-        This content is only available to authenticated users.
-      </p>
 
       <!-- PUT YOUR PROTECTED CONTENT HERE -->
+      <h1>HERO text</h1>
+            <button
+        type="button"
+        id="editHeadingButton"
+        class="hero-edit-button"
+        title="Edit heading"
+      >
+        <i class="fa-solid fa-pen"></i>
+      </button>
+
+<h1>SubHero Text</h1>
+
+      <button
+        type="button"
+        id="editSubheadingButton"
+        class="hero-edit-button"
+        title="Edit subheading"
+      >
+        <i class="fa-solid fa-pen"></i>
+      </button>
+      
+      <h1>CTA button</h1>
+            <button
+        type="button"
+        id="editCTAButton"
+        class="hero-edit-button"
+        title="Edit CTA"
+      >
+        <i class="fa-solid fa-pen"></i>
+      </button>
+      
+      
+      <h1>VIDEO UPLOAD</h1>
+      
+          <button
+      type="button"
+      id="uploadHeroVideo"
+      class="hero-control-button"
+    > 
+      <i class="fa-solid fa-upload"></i>
+      Upload Video
+    </button>
+
+    <button
+      type="button"
+      id="deleteHeroVideo"
+      class="hero-control-button delete-video-button"
+    >
+      <i class="fa-solid fa-trash"></i>
+      Delete Video
+    </button>
+
+    <input
+      type="file"
+      id="heroVideoInput"
+      accept="video/mp4,video/webm,video/quicktime"
+      hidden
+    >
+
+<h1>Upload Facecap</h1>
+  <!-- UPLOAD -->
+
+  <div class="category1-upload-area">
+
+    <button
+      type="button"
+      id="category1UploadButton"
+      class="category1-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category1ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
+  
+  <h1>Upload Goggles</h1>
+  
+    <div class="category2-upload-area">
+
+    <button
+      type="button"
+      id="category2UploadButton"
+      class="category2-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category2ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
+  <h1>Upload Facemask</h1>
+  
+    <!-- UPLOAD -->
+
+  <div class="category3-upload-area">
+
+    <button
+      type="button"
+      id="category3UploadButton"
+      class="category3-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category3ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
+
+  <h1>Upload Jackets</h1>
+  
+    <!-- UPLOAD -->
+
+  <div class="category4-upload-area">
+
+    <button
+      type="button"
+      id="category4UploadButton"
+      class="category4-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category4ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
+  
+  
+  <h1>Upload Shirts</h1>
+  
+    <!-- UPLOAD -->
+
+  <div class="category5-upload-area">
+
+    <button
+      type="button"
+      id="category5UploadButton"
+      class="category5-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category5ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
+
+  <h1>Upload Trousers</h1>
+  
+    <!-- UPLOAD -->
+
+  <div class="category6-upload-area">
+
+    <button
+      type="button"
+      id="category6UploadButton"
+      class="category6-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category6ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
 
 
+  <h1>Upload Footwears</h1>
+  
+    <!-- UPLOAD -->
+
+  <div class="category7-upload-area">
+
+    <button
+      type="button"
+      id="category7UploadButton"
+      class="category7-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category7ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
+  
+  <h1>UploadItems</h1>
+  
+    <!-- UPLOAD -->
+
+  <div class="category8-upload-area">
+
+    <button
+      type="button"
+      id="category8UploadButton"
+      class="category8-upload-button"
+    >
+      <i class="fa-solid fa-upload"></i>
+      Upload Images
+    </button>
+
+    <input
+      type="file"
+      id="category8ImageInput"
+      accept="image/jpeg,image/png,image/webp,image/gif"
+      multiple
+      hidden
+    >
+
+  </div>
+
+<!--10000-->
       <button id="adminLogout" type="button">
         <i class="fa-solid fa-right-from-bracket"></i>
         Logout
